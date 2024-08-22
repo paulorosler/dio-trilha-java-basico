@@ -11,6 +11,9 @@ public class TiposVariaveis {
         short numeroCurto2 = (short)numeroNormal;
         System.err.println(numeroCurto2);
 
+        float numeroFloat = 36f;
+        System.err.println(numeroFloat);
+
 
 
     }
