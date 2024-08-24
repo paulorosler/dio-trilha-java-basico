@@ -1,6 +1,10 @@
 public class Usuario {
     public static void main (String [] args) throws Exception {
 
+        String MTV = new String("Minha TV");
+        MTV = "Minha TV mesmo"; /* Não altera MTV, destroi o anterior e cria um novo */
+        System.out.println(MTV + "\n");
+
         SmartTV smartTV = new SmartTV();
 
         if (!smartTV.ligada) {
