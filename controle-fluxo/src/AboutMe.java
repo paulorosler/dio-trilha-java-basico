@@ -25,7 +25,7 @@ public class AboutMe {
             scanner.close();
         }
         catch (java.util.InputMismatchException e) {
-        System.out.println("Os campos idade e altura tem que ser inteiros e numericos");
+        System.err.println("Os campos idade e altura tem que ser inteiros e numericos");
         }
         finally {System.out.println("Certo ou errado, termino por aqui!");}
     }
