@@ -23,9 +23,10 @@ public class AboutMe {
             System.out.println("Tenho " + idade + " anos ");
             System.out.println("Minha altura é " + altura + "cm ");
             scanner.close();
-    }
-    catch (java.util.InputMismatchException e) {
-       System.out.println("Os campos idade e altura tem que ser inteiros e numericos");
-    }
+        }
+        catch (java.util.InputMismatchException e) {
+        System.out.println("Os campos idade e altura tem que ser inteiros e numericos");
+        }
+        finally {System.out.println("Certo ou errado, termino por aqui!");}
     }
 }
